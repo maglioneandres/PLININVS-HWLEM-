@@ -1,1 +1,26 @@
+This folder contains the following models, to be used in sequence: 
+
+1. Add width to OSM roads.model3
+
+2. Categorie Urban Atlas.model3
+
+3. Merge all Classes.model3
+
+4. Study Area Grid.model3
+
+5. voci carta della natura.model3
+
+
+6. building_shadow_v2: This visual tool refines the created shadow from the buildings polygon layer, intersects the building shadow with the tree shadow to create a "shadows" layer, 
+  and then intersects the "shadows" with the land cover. The results are as follows:
+    a. Building shadow: Only the building shadows.
+    b. Shadows: All shadows, including both building and tree shadows.
+    c. luhw_study_area: Land cover with shadows.
+
+  Input requirements:
+    a. Buildings: Buildings with the attribute height.
+    b. Tree_shadow: Tree shadow, provided as a polygon file.
+    c. Initial_building_shadow: Initial building shadow exported using the 2.5D style and imported into the project.
+    d. luhw_study.area_ns: Refers to the initial parameterized land cover without shadows.
+    e. Study.area: Represents the delimitation of the study area in a polygon vector layer.
 
