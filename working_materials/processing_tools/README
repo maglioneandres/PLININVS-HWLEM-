@@ -11,8 +11,8 @@ This folder contains the following models, to be used in sequence:
 5. voci carta della natura.model3
 
 
-6. building_shadow_v2: This visual tool refines the created shadow from the buildings polygon layer, intersects the building shadow with the tree shadow to create a "shadows" layer, 
-  and then intersects the "shadows" with the land cover. The results are as follows:
+6. building_shadow_v2: This visual tool refines the created shadow from the buildings polygon layer (you can follow this procedure to create the shadows https://docs.google.com/document/d/1qLpHDekr6XNk0OJVBdXk_Mf5QLl4_IBGzxyh4dLP_sg/edit?tab=t.0), 
+intersects the building shadow with the tree shadow to create a "shadows" layer, and then intersects the "shadows" with the land cover. The results are as follows:
     a. Building shadow: Only the building shadows.
     b. Shadows: All shadows, including both building and tree shadows.
     c. luhw_study_area: Land cover with shadows.
